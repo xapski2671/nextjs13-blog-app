@@ -1,0 +1,71 @@
+// top left
+@mixin fl-tl
+  display: flex
+  align-items: flex-start
+  justify-content: flex-start
+
+/* top-center */
+@mixin fl-tc
+  display: flex
+  align-items: flex-start
+  justify-content: center
+
+/* top-right */
+@mixin fl-tr
+  display: flex
+  align-items: flex-start
+  justify-content: flex-end
+
+/* center-left */
+@mixin fl-cl
+  display: flex
+  align-items: center
+  justify-content: flex-start
+
+/* center-center */
+@mixin fl-cc
+  display: flex
+  align-items: center
+  justify-content: center
+
+/* center-right */
+@mixin fl-cr
+  display: flex
+  align-items: center
+  justify-content: flex-end
+
+// bottom left
+@mixin fl-bl
+  display: flex
+  align-items: flex-end
+  justify-content: flex-start
+
+// bottom center
+@mixin fl-bc
+  display: flex
+  align-items: flex-end
+  justify-content: center
+
+// bottom right
+@mixin fl-br
+  display: flex
+  align-items: flex-end
+  justify-content: flex-end
+
+// space between
+@mixin fl-sb
+  justify-content: space-between
+
+// space around
+@mixin fl-sa
+  justify-content: space-around
+
+// flex column
+@mixin fl-c
+  flex-direction: column
+
+// no select
+@mixin no-select
+  -webkit-user-select: none
+  -ms-user-select: none
+  user-select: none
