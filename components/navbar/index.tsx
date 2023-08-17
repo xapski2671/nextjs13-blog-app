@@ -39,7 +39,7 @@ export default function Navbar() {
 	return (
 		<div className={s.container}>
 			<Link href={"/"} className={s.logo}>
-				{"Lamania"}
+				{"XPS"}
 			</Link>
 			<div className={s.links}>
 				{links.map((link) => {

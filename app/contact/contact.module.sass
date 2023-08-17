@@ -1,0 +1,43 @@
+@import @/styles/_mixins
+
+.container
+
+.title
+  font-size: 60px
+  margin-bottom: 100px
+  text-align: center
+
+.content
+  @include fl-cl
+  gap: 100px
+
+.img_cont
+  flex: 1
+  height: 600px
+  position: relative
+
+.img
+  object-fit: cover
+  animation: move 3s infinite ease alternate
+
+@keyframes move
+  from
+    transform: translateY(-15px)
+  to
+    transform: translateY(0px) scale(1.03)
+
+.form
+  flex: 1
+  @include fl-tl
+  @include fl-c
+  gap: 20px
+
+.input, .text_area
+  width: 100%
+  padding: 20px
+  background-color: transparent
+  border: none
+  outline: none
+  color: #fff
+  border-bottom: 2px solid #bbb
+  font-size: 18px
