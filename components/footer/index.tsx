@@ -5,7 +5,7 @@ import s from "./footer.module.sass"
 export default function Footer() {
 	return (
 		<footer className={s.container}>
-			<div>{"@2023 xps. All rights reserved"}</div>
+			<div>{"@2022 xps. All rights reserved"}</div>
 			<div className={s.social}>
 				<Image
 					src="/1.png"
